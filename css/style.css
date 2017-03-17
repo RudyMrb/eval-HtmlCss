@@ -1,0 +1,149 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+  font-weight: 100;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%
+}
+
+.paris {
+  text-align: center;
+  color: #f57f17;
+  margin-bottom: -20px;
+  font-size: 15px;
+}
+
+nav {
+  text-align: center;
+  margin-top: -20px;
+  font-style: italic;
+  margin-right: 45px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+#plan {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.assiete {
+  margin-top: 80px;
+  margin-left: 80px;
+  width: 400px;
+}
+
+.plat {
+  text-align: right;
+  float: right;
+  font-style: italic;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: -200px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  width: 400px;
+  }
+
+.ingredient {
+  text-align: right;
+  float: right;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: -200px;
+  font-size: 20px;
+  width: 400px;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+.pBloque-left, .pBloque-right {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pBloque-left {
+  position: relative;
+  width: 50%;
+  margin-top: 133px;
+  margin-left: 20px;
+  float: left;
+}
+
+.pBloque-right {
+  position: relative;
+  width: 45%;
+  float: right;
+}
+
+#salle .pBloque-left {
+  position: relative;
+  width: 45%;
+  margin-top: 133px;
+  margin-left: 50px;
+  margin-right: auto;
+  float: left;
+}
+
+#service .pBloque-right {
+  transform: translateY(50%);
+  margin-right: -50px;
+}
+
+#dressage .pBloque-left {
+  position: relative;
+  width: 45%;
+  margin-top: 133px;
+  margin-left: 50px;
+  margin-right: auto;
+  float: left;
+}
+#dressage .pBloque-left:after{
+  content:" ";
+  clear:both;
+}
+#gout .pBloque-right {
+  transform: translateY(50%);
+  margin-right: -50px;
+}
+
+p {
+  font-style: italic;
+  font-family:
+}
+
+footer img {
+  margin-top: 1400px;
+  margin-left: -69px;
+}
+footer p {
+  text-align: center;
+}
+
+#note {
+  color: white;
+  background-color: #212121;
+  width: 35%;
+}
